@@ -1,6 +1,6 @@
 # CBIS API Reference
 
-Repo for the documentation of the CBIS REST API: https://cbis-rest-api.citybreak.com/
+Repo for the documentation of the CBIS REST API: https://cbis-rest-api.citybreak.com/<br/>
 Deployed here: https://visit.github.io/api-doc/
 
 Special Thanks
