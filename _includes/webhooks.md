@@ -17,6 +17,7 @@ We also handle automatic retries if your endpoint is unavailable.
 	"HasLog" : true,
 	"Attribute" : {
 		"AffectedProducts" : ["cbis:355699", "cbis:1245084", "cbis:1268500", "cbis:1270889"],
+		"AffectedArenas" : ["cbis:12345"],
 		"Date" : "2016-11-03T12:38:09.7400589Z",
 		"Changes" : {
 			"99" : "Updated",
@@ -29,6 +30,7 @@ We also handle automatic retries if your endpoint is unavailable.
 	"Poi" : null,
 	"Product" : {
 		"AffectedProducts" : ["cbis:355699", "cbis:1245084", "cbis:1268500", "cbis:1270889"],
+		"AffectedArenas" : [],
 		"Date" : "2016-11-03T12:38:08.1485162Z",
 		"Changes" : {
 			"cbis:355699" : "Created",
