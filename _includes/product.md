@@ -196,7 +196,7 @@ Parameter | Description
 id | The id you are looking for.
 Accept-Language | The language.
 
-## Get paged
+## Get Paged
 
 ```shell
 curl -X GET 
