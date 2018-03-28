@@ -225,13 +225,13 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/product/getpaged/{page
   "TotalResults": 3,
   "Result": [
     {
-      "Product"
+    	"Product 1"
     },
     {
-	  "Product"
-	},
-	{
-	  "Product"
+  	"Product 2"
+    },
+    {
+  	"Product 3"
     }
   ]
 }
