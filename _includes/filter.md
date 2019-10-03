@@ -13,6 +13,7 @@
   "Position": {},
   "GeoBox": {},
   "ProductIds": [],
+  "ReferencePrefix": "",
   "Categories": [],
   "Geos": [],
   "Pois": [],
@@ -343,6 +344,48 @@ Only return the products matching the ids supplied in `ProductIds`.
 Parameter | Type | Description
 --------- | ---- | -----------
 ProductIds | string[] | The productIds.
+
+## ReferencePrefix
+
+```shell
+curl -X POST 
+  --header 'ApiKey: APIKEY132456789EWOK'
+  --header 'Accept: application/json' 
+  --header 'Accept-Language: en-US'
+  --header 'Content-Type: application/json'
+  -d '{
+	  "Page": 0,
+	  "PageSize": 20,
+	  "ReferencePrefix": "ewok:"
+	}'	 
+  'https://cbis-rest-api.citybreak.com/v1/api/product'
+```
+
+```javascript
+var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/product",
+{
+  method: "POST",
+  headers: {
+    "ApiKey:" "APIKEY132456789EWOK",
+    "Accept": "application/json",
+	"Accept-Language": "en-US",
+	"Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+	  "Page": 0,
+	  "PageSize": 20,
+	  "ReferencePrefix": "ewok:"
+  })
+});
+```
+
+Only return the products having a reference that starts with `ReferencePrefix`.
+
+### Parameters
+
+Parameter | Type | Description
+--------- | ---- | -----------
+ReferencePrefix | string | The prefix.
 
 ## Occasions
 
