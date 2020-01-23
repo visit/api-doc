@@ -422,7 +422,7 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/product",
   body: JSON.stringify({
 	  "Page": 0,
 	  "PageSize": 20,
-	  "Occasion": {
+	  "Occasions": {
             "After": "2016-09-08T07:09:44.042Z",
             "Before": "2016-09-08T07:09:44.042Z",
             "ArenaIds": [
@@ -574,7 +574,7 @@ curl -X POST
 					"Type": "Value",
 					"RelationType": "None",
 					"Filter": {
-						"Occasion": {
+						"Occasions": {
 							"After": "2016-09-08T07:09:44.042Z",
 							"Before": "2016-09-08T07:09:44.042Z",
 							"ArenaIds": [
@@ -621,7 +621,7 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/product",
 					"Type": "Value",
 					"RelationType": "None",
 					"Filter": {
-						"Occasion": {
+						"Occasions": {
 							"After": "2016-09-08T07:09:44.042Z",
 							"Before": "2016-09-08T07:09:44.042Z",
 							"ArenaIds": [
