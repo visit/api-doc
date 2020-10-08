@@ -779,6 +779,7 @@ Latitude | double | The latitude of the reference point to sort on position
 Longitude | double | The longitude of the reference point to sort on position
 
 ### Paging
+
 Parameter | Type | Description
 --------- | ---- | -----------
 Page | int | The page, starting at 0.
