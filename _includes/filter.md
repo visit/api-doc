@@ -767,6 +767,7 @@ Supported fields are:
 * Occasions
 * Information (need to supply AttributeId)
 * Position (need to supply Latitude & Longitude)
+* Random (provide a RandomSeed to ensure consistent results & paging)
 
 ### Sort Object
 
@@ -777,6 +778,7 @@ Order | Order | Either `Asc` or `Desc`
 AttributeId | int | The attribute id of the information field you want to sort on
 Latitude | double | The latitude of the reference point to sort on position
 Longitude | double | The longitude of the reference point to sort on position
+RandomSeed | string | The seed to use for Random sorting to ensure consistent results & paging
 
 ### Paging
 
