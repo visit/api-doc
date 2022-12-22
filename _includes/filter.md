@@ -4,7 +4,7 @@
 
 ```json
 {
-  "Sort": {},
+  "Sorts": [],
   "Page": 0,
   "PageSize": 0,
   "Fields": [],
@@ -27,7 +27,7 @@
 Filter used to query products.
 
 <aside class="notice">
-<code>Sort</code>, <code>Page</code>, <code>PageSize</code> and <code>Fields</code> are only used when querying for products or arenas.
+<code>Sorts</code>, <code>Page</code>, <code>PageSize</code> and <code>Fields</code> are only used when querying for products or arenas.
 </aside>
 
 ## Categories, Geonodes, Pois
@@ -727,10 +727,10 @@ curl -X POST
   -d '{
 	  "Page": 0,
 	  "PageSize": 20,
-	  "Sort": {
+	  "Sorts": [{
 		"Field": "Name",
 		"Order": "Asc"
-	  },
+	  }],
 	}'	 
   'https://cbis-rest-api.citybreak.com/v1/api/product'
 ```
@@ -748,15 +748,15 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/product",
   body: JSON.stringify({
 	  "Page": 0,
 	  "PageSize": 20,
-	  "Sort": {
+	  "Sorts": [{
 		"Field": "Name",
 		"Order": "Asc"
-	  },
+	  }],
   })
 });
 ```
 
-Order products by the supplied field.
+Order products by the supplied fields. Optionally, you can provide multiple sorting objects to sort by multiple levels in decreasing order of importance.
 Supported fields are:
 
 * Name 
