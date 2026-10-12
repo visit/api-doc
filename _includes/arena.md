@@ -26,8 +26,8 @@
 	  ]
     }
   ],
-  "ExpiresAt": "2018-07-01T01:00:00",
-  "PublishAt": "2000-01-01T00:00:00",
+  "ExpiresAt": "2018-07-01T01:00:00Z",
+  "PublishAt": "2000-01-01T00:00:00Z",
   "Information": [
     {
 	  "Id": 101,
@@ -131,8 +131,8 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/arena/{id}",
         ]
       }
     ],
-    "ExpiresAt": "2018-07-01T01:00:00",
-    "PublishAt": "2000-01-01T00:00:00",
+    "ExpiresAt": "2018-07-01T01:00:00Z",
+    "PublishAt": "2000-01-01T00:00:00Z",
     "Information": [
       {
         "Id": 101,
@@ -369,8 +369,8 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/arena",
           ]
         }
       ],
-      "ExpiresAt": "2018-07-01T01:00:00",
-      "PublishAt": "2000-01-01T00:00:00",
+      "ExpiresAt": "2018-07-01T01:00:00Z",
+      "PublishAt": "2000-01-01T00:00:00Z",
       "Information": [
         {
           "Id": 101,
