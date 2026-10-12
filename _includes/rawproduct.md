@@ -47,12 +47,12 @@
       "Longitude": 7.1934700012207,
       "Latitude": 48.172353561064
     },
-  "ExpiresAt": "2018-07-01T01:00:00",
+  "ExpiresAt": "2018-07-01T01:00:00Z",
   "PublishAt": null,
   "Occasions": [
     {
-      "Start": "2016-06-16T00:00:00",
-      "End": "2016-06-30T00:00:00",
+      "Start": "2016-06-15T22:00:00Z",
+      "End": "2016-06-29T22:00:00Z",
       "StartTime": 0,
       "Duration": 864000000000,
       "Days": 127,
@@ -157,12 +157,12 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/raw/product/{id}",
       "Longitude": 7.1934700012207,
       "Latitude": 48.172353561064
     },
-    "ExpiresAt": "2018-07-01T01:00:00",
+    "ExpiresAt": "2018-07-01T01:00:00Z",
     "PublishAt": null,
     "Occasions": [
       {
-        "Start": "2016-06-16T00:00:00",
-        "End": "2016-06-30T00:00:00",
+        "Start": "2016-06-15T22:00:00Z",
+        "End": "2016-06-29T22:00:00Z",
         "StartTime": 0,
         "Duration": 864000000000,
         "Days": 127,
@@ -281,12 +281,12 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/raw/Product/getpaged/{
       "Longitude": 7.1934700012207,
       "Latitude": 48.172353561064
     },
-    "ExpiresAt": "2018-07-01T01:00:00",
+    "ExpiresAt": "2018-07-01T01:00:00Z",
     "PublishAt": null,
     "Occasions": [
       {
-        "Start": "2016-06-16T00:00:00",
-        "End": "2016-06-30T00:00:00",
+        "Start": "2016-06-15T22:00:00Z",
+        "End": "2016-06-29T22:00:00Z",
         "StartTime": 0,
         "Duration": 864000000000,
         "Days": 127,
@@ -411,12 +411,12 @@ var r = fetch("https://cbis-rest-api.citybreak.com/v1/api/raw/product/getnext/{c
       "Longitude": 7.1934700012207,
       "Latitude": 48.172353561064
     },
-    "ExpiresAt": "2018-07-01T01:00:00",
+    "ExpiresAt": "2018-07-01T01:00:00Z",
     "PublishAt": null,
     "Occasions": [
       {
-        "Start": "2016-06-16T00:00:00",
-        "End": "2016-06-30T00:00:00",
+        "Start": "2016-06-15T22:00:00Z",
+        "End": "2016-06-29T22:00:00Z",
         "StartTime": 0,
         "Duration": 864000000000,
         "Days": 127,
